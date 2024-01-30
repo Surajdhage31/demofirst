@@ -5,7 +5,7 @@ public class ternary {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	      Scanner num = new Scanner(System.in);
-        System.out.println("Enter the opration + or substract -");
+        System.out.println("Enter the opration add or substract");
   
            String no = num.next();
         System.out.println("Enter two number");
@@ -18,7 +18,7 @@ public class ternary {
          int opration =( sum.equals(no))?(Add):(Sub);
          System.out.println(opration);
          String bus = "ram";
-         int hash = bus.hashCode();
+         int hash = bus.hashCode(); //hash code
          System.out.println(hash);
          
 //	}
