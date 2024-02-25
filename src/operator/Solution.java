@@ -20,10 +20,12 @@ public class Solution {
 		for (int i = 1; i<=10;i++) {
 		       
 				int result = N * i;
-				 
+				 if (i>0.0)
+				 {
 				System.out.println("" + N + "*" + i + "=" + result);
 			
 				}
 		//bufferedReader.close();
+	}
 	}
 }
